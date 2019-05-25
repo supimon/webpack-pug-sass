@@ -14,12 +14,12 @@ This guide is a template that contains steps to install the project, technologie
 #### Technologies used
 * Pug/Jade https://pugjs.org (This is a template engine and is a fastest way to write HTML)
 * Sass http://sass-lang.com/ (This is a CSS preprocessor which is used to write styles)
-* Webpack 3.x https://webpack.js.org (A module bundler to manager all the dependencies of your website)
+* Webpack 4.x https://webpack.js.org (A module bundler to manager all the dependencies of your website)
 
 #### Dependencies
 
 * Git https://git-scm.com/downloads
-* NodeJS >= 6 https://nodejs.org
+* NodeJS >= 6 & <=9 https://nodejs.org
   * *In order to run the project in your local machine, you must install NodeJS. You can download the executable file for your Operating System from their website and install it.*
 * Yarn: `brew install yarn` or follow the specific guide for your OS https://yarnpkg.com/lang/en/docs/install/
 
@@ -29,7 +29,7 @@ This guide is a template that contains steps to install the project, technologie
 
 #### Dependencies
 
-* Webpack and webpack dev server: Install them with `yarn global add webpack webpack-dev-server`
+* just run 'yarn install'
 
 #### Branches
 * `master` main branch, used for production.
@@ -43,7 +43,8 @@ This guide is a template that contains steps to install the project, technologie
 
 ##### Developing
 2. Open the folder `my-repo` in your code editor because that one contains the source code.
-3. Start the `development server` of the project with `yarn run dev` (if you want to test the development server in your local network, you should run `yarn run dev-network` instead and with the IP of your host computer, you can access to the website in your other devices)
+3. run 'yarn install'
+4. Start the `development server` of the project with `yarn run dev` (if you want to test the development server in your local network, you should run `yarn run dev-network` instead and with the IP of your host computer, you can access to the website in your other devices)
 5. Check the available [routes](#routes) of your website.
 6. Perform all the modifications you need
 
