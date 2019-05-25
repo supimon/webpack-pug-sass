@@ -1,7 +1,19 @@
-Webpack project starter with Pug, Sass/Stylus, jQuery, Babel and Yarn
+Webpack 4 project starter with Pug, Sass/Stylus, jQuery, Babel and Yarn
 ===================
 
-The purpose if this webpack starter is to allow people to create websites without frameworks/libraries like React, Angular, Vue and only using simple but powerful technologies to build quality websites.
+I got this starter pack from here: https://github.com/SoldierCorp/webpack-starter-pug-sass-es6-jquery
+
+Warning
+========
+Let me warn you however, before you download the files as zip from the above repo:
+ - not all files get downloaded as zip (couple of config files are missing)
+ - you will have to run 'yarn install' and when you do, you will need to downgrade your node version to less than 9
+ (I used node@8)
+ - you will also have to edit that path of the files imported and required in app.js
+
+
+After you have taken care of the warnings, just run 'yarn run dev'. Happy coding!
+
 
 ## Technologies used
 
@@ -20,12 +32,9 @@ The purpose if this webpack starter is to allow people to create websites withou
 - Yarn instead NPM
 - PostCSS
 
-## Contributions
-
-You can contribute directly to this repository or create a fork and peform your own modifications, feel free to use it in the way you want!
-
 ## Donations
 
-You can of course help a little bit with some donation to buy more coffee :)
+You can of course help the original repo creator - Edgardo - with a little bit of donation here. The guy really
+has saved a lot of time for the all of us
 
 <a href="https://www.buymeacoffee.com/edgardo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
